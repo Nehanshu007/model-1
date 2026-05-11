@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HI</h1>
+    <h2>hi</h2>
+    <h3>hi</h3>
+    <h4>hi</h4>
+    <h5>hi</h5>
+    <h6>hi</h6>
+    <b>hi</b>
+    <br>
+    <i>hi</i>
+    <p>lkjhgfd</p>
+    <hr>
+    <ol><li>one</li>
+    <li>two</li>
+<li>three</li></ol>
+    <ul><li>one</li>
+    <li>two</li>
+<li>threee</li></ul>
+<ol><li>socet</li>
+<ul><li>ce</li></ul>
+<li>asoit</li>
+<ul><li>ce</li></ul>
+<li>diploma</li>
+<ul><li>ce</li></ul></ol>
+<table border="1" aria-rowspan="8"><h1>heeloloo</h1>
+    <tr aria-rowspan="7">
+        <th>Roll no</th>
+        <th>subject</th>
+        <th>marks</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>dbms</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>java</td>
+<td>70</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>cgavm</td>
+        <td>76</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>ds</td>
+        <td>89</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>os</td>
+        <td>90</td>
+    </tr>
+</table>
+</body>
+</html>
