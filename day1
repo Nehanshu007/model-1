@@ -17,18 +17,22 @@
     <i>hi</i>
     <p>lkjhgfd</p>
     <hr>
+    <!--ol-->
     <ol><li>one</li>
     <li>two</li>
 <li>three</li></ol>
-    <ul><li>one</li>
+<!--ul-->    
+<ul><li>one</li>
     <li>two</li>
 <li>threee</li></ul>
+<!--ol and ul-->
 <ol><li>socet</li>
 <ul><li>ce</li></ul>
 <li>asoit</li>
 <ul><li>ce</li></ul>
 <li>diploma</li>
 <ul><li>ce</li></ul></ol>
+<!--table-->
 <table border="1" aria-rowspan="8"><h1>heeloloo</h1>
     <tr aria-rowspan="7">
         <th>Roll no</th>
@@ -61,5 +65,131 @@
         <td>90</td>
     </tr>
 </table>
+<!--marksheet-->
+<table border="2">
+
+<tr>    
+    
+    <th colspan="8">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOE_yPlzJZoZWG1uASdJL6kkGPb1OiAPN7ag&s" alt="">
+        </th>
+</tr>
+<tr>
+    <th colspan="2">name</th>
+    <td colspan="6">Parikh nehanshu</td>
+
+</tr>
+<tr>
+<th colspan="3">enrolment</th>
+<td>2501031830026</td>
+<th colspan="1">set no</th>
+    <td colspan="5">234567</td>
+</tr>
+<tr>
+    <th>course code</th>
+    <th>cours name</th>
+    <th>CIE</th>
+    <th>ESE</th>
+    <th>CIE</th>
+    <th>ESE</th>
+    <th>Total marks</th>
+    <tr>
+        <td>1</td>
+        <td>java</td>
+        <td>34</td>
+        <td>45</td>
+        <td>32</td>
+        <td>46</td>
+        <td>157</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>os</td>
+        <td>34</td>
+        <td>45</td>
+        <td>32</td>
+        <td>46</td>
+        <td>157</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>cgavm</td>
+        <td>34</td>
+        <td>45</td>
+        <td>32</td>
+        <td>46</td>
+        <td>157</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>ds</td>
+        <td>34</td>
+        <td>45</td>
+        <td>32</td>
+        <td>46</td>
+        <td>157</td>
+    </tr>
+    <tr>
+        <th colspan="6">total marks</th>
+        <td>628</td>
+    </tr>
+    <tr>
+        <th colspan="2">Percentage</th>
+        <td>89.71%</td>
+        <th colspan="3">cgpa</th>
+<td>9</td>
+    </tr>
+    <tr>
+        <th colspan="7">ALL the Best </th>
+    </tr>
+</tr>
+<hr>
+</table>
+<!--From-->
+<form action="student register ">
+    <h2>student register</h2>
+    <label for="name">Name</label>
+    <input type="text">
+    <br><br>
+    <label for="enrollment">enrollment</label>
+    <input type="text">
+    <br> <br>
+    <label for="branch">branch</label>
+    <select name="branch" id="branch">
+        <option value="">select branch</option>
+    <option value="CE">computer enge</option>
+    <option value="CSE"></option>
+    <option value="CS"></option>
+    <option value="IT"></option>
+    <option value="AIML"></option>
+    </select>
+    <br><br>
+    <label for="Division">Division</label>
+    <input type="text" maxlength="1">
+    <br> <br>
+    <label for="Gender"> Gender</label>
+    <input type="radio" id="male" name="Gender" value="Male">
+    <label for="Male">Male</label>
+    <input type="radio" id="Female" name="Gender" value="Female">
+    <label for="Female">Female</label> 
+    <br><br>
+    <label for="Mobile no">Mobile NO</label>
+    <input type="tel" maxlength="10">
+    <br><br> 
+     <label for="email">Email</label>
+     <input type="email">
+     <br><br>
+     <label for="Password">Password</label>
+     <input type="password">
+     <br><br>
+     <label for="Upload">Upload Photo</label>
+     <input type="file">
+     <br><br>
+    <label for="Remark">Remark</label>
+    <textarea name="" id=""></textarea>
+    <br><br>
+    <input type="submit">
+</form>
+</form>
 </body>
 </html>
