@@ -69,7 +69,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #000000;
 }
 
 footer {
@@ -146,8 +146,9 @@ footer {
                     <label for="photo">Upload Photo:</label>
                     <input type="file" id="photo" name="photo">
                     <br><br>
-                    <audio src="op.mp3">
-</audio>
+<label for="time">Date and Time</label>
+<input type="datetime-local">
+<br><br>   
                     <label for="remark">Remark:</label>
                     <textarea id="remark" name="remark"></textarea>
                     <br><br>
