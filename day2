@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+       body {
+    font-family: Arial, sans-serif;
+  background-image: url(https://wallpapercave.com/wp/wp5609821.jpg);
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgb(255, 208, 0);
+}
+nav{
+    cursor: none;
+}
+
+form {
+    background-color:#fdaddd;
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px lightgray;
+    
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border: black;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+}
+
+input,
+select,
+textarea {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 60px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(0, 162, 255);
+}
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Student Registration</h1>
+        <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Courses</a>
+    <a href="#">Contact</a>
+</nav>  
+    </header>
+
+    <main>
+        <section>
+            <form action="student_register">
+
+                <fieldset>
+                    <legend>Student Details</legend>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br><br>
+
+                    <label for="enrollment">Enrollment:</label>
+                    <input type="text" id="enrollment" name="enrollment">
+                    <br><br>
+
+                    <label for="branch">Branch:</label>
+                    <select name="branch" id="branch">
+                        <option value="">Select Branch</option>
+                        <option value="CE">Computer Engineering</option>
+                        <option value="CSE">Computer Science Engineering</option>
+                        <option value="CS">Computer Science</option>
+                        <option value="IT">Information Technology</option>
+                        <option value="AIML">AI & ML</option>
+                    </select>
+                    <br><br>
+
+                    <label for="division">Division:</label>
+                    <input type="text" id="division" name="division" maxlength="1">
+                    <br><br>
+
+                    <label>Gender:</label>
+
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+                    
+                    <br><br>
+
+                    <label for="mobile">Mobile No:</label>
+                    <input type="tel" id="mobile" name="mobile" maxlength="10">
+                    <br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <br><br>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                    <br><br>
+
+                    <label for="photo">Upload Photo:</label>
+                    <input type="file" id="photo" name="photo">
+                    <br><br>
+                    <audio src="op.mp3">
+</audio>
+                    <label for="remark">Remark:</label>
+                    <textarea id="remark" name="remark"></textarea>
+                    <br><br>
+
+                    <input type="submit" value="Register">
+
+                </fieldset>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Student Registration System</p>
+    </footer>
+
+</body>
+</html>
