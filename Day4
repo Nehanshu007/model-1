@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple CSS Demo</title>
+
+<style>
+
+/* CSS Layer */
+@layer demo {
+
+body{
+  font-family: Arial;
+}
+
+/* Float Property */
+.box1{
+  float:left;
+  width:40%;
+  background:lightblue;
+  padding:20px;
+}
+
+.box2{
+  float:left;
+  width:40%;
+  background:lightgreen;
+  padding:20px;
+}
+
+/* Position Property */
+.button{
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  background:black;
+  color:white;
+  padding:10px;
+}
+
+/* Media Query */
+@media(max-width:600px){
+
+.box1,
+.box2{
+  width:100%;
+  float:none;
+}
+
+body{
+  background:lightyellow;
+}
+
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>CSS Demo</h1>
+
+<div class="box1">
+  Float Box 1
+</div>
+
+<div class="box2">
+  Float Box 2
+</div>
+
+<div class="button">
+  Fixed Button
+</div>
+
+</body>
+</html>
