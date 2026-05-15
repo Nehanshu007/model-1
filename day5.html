@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Hover & Video Position</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      text-align: center;
+      padding: 30px;
+    }
+
+    /* Image Hover Effect */
+    .image-box {
+      width: 300px;
+      margin: auto;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .image-box img {
+      width: 100%;
+      transition: 0.4s;
+    }
+
+    .image-box img:hover {
+      transform: scale(1.76);
+      
+    }
+
+    /* Video Positioning */
+    .video-box {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+    }
+
+    video {
+      width: 400px;
+      border: 4px solid #333;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Image Hover Effect</h2>
+
+  <div class="image-box">
+    <img src="https://media.cnn.com/api/v1/images/stellar/prod/211227135008-02-the-batman-trailer.jpg?q=h_1406,w_2500,x_0,y_0" alt="">
+  </div>
+
+  <h2>Video Position Example</h2>
+
+  <div class="video-box">
+    <video controls>
+      <source src="337459_medium.mp4" type="video/mp4">
+    
+    </video>
+  </div>
+
+</body>
+</html>
